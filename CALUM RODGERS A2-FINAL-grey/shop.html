@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Calums Web Store</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+     <header>
+       
+    </header>
+
+    <main>
+
+        <form>
+            <h2>SEARCH</h2>
+            <fieldset>
+              <label for="productName">ITEM NAME</label>
+              <input type="text" name="products" id="productName">
+            </fieldset>
+            <fieldset>
+              <legend>Price</legend>
+              <label><input type="radio" name="price" value="all" checked> All</label>
+              <label><input type="radio" name="price" value="10"> $10</label>
+              <label><input type="radio" name="price" value="50"> $50</label>
+              <label><input type="radio" name="price" value="80"> $80</label>
+              <label><input type="radio" name="price" value="100"> $100</label>
+            </fieldset>
+            <fieldset>
+              <label for="productCategory">Category</label>
+              <select name="category" id="productCategory">
+                <option value="" selected disabled>-- Search by Category --</option>
+                <option value="Shoe">Shoe</option>
+                <option value="Shirt">Shirt</option>
+              </select>
+            </fieldset>
+          </form>
+
+
+      <h2>ITEMS</h2>
+      <button id="layout">Flip</button>
+      <section id="products" class="products"></section>
+
+    </main>
+
+
+    <footer>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
